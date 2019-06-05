@@ -4,6 +4,7 @@ PRO_NAME=cloudvgs
 HOME_PATH=/home/yuqingbin/VGS/VGS
 
 while true ; do
+  sleep 1
   NUM=`ps aux | grep ${PRO_NAME} | grep -v grep |wc -l`
   if [ "${NUM}" -lt "1" ];then
     echo "${PRO_NAME} was killed"
