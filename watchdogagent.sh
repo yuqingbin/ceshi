@@ -1,7 +1,7 @@
 #! /bin/sh
 #进程名字可修改
-PRO_NAME=nvr.out
-HOME_PATH=/home/vgs/nvr
+PRO_NAME=vgsagent
+HOME_PATH=/home/vgs/vgsagent
 
 while true ; do
   sleep 1
