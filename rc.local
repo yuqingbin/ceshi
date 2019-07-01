@@ -19,5 +19,7 @@ sudo -S nohup ./qt-ptz &
 sudo -S nohup ./watchdog.sh &
 cd /home/vgs/vgsagent
 sudo -S nohup ./watchdogagent.sh &
-
+cd /home/vgs/nvrcloudstorage
+sudo -S nohup ./nvrslice &
+sudo -S nohup ./watchdognvrslice.sh &
 exit 0
